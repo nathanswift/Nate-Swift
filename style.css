@@ -1,0 +1,36 @@
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #D4836A;
+}
+
+div#navbar {
+    width: 100%;
+    height: 100px;
+    background-color: #FFBEAA;
+}
+
+div#navbar div#navbar-logo {
+    font-family: 'Gaegu', cursive;
+    font-size: 2.5em;
+    margin-left: 35px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+div#navbar div.navbar-btn {
+    float: right;
+    margin-right: 30px;
+    margin-top: 40px;
+    font-size: 1.8em;
+    font-family: 'Gaegu', cursive;
+    cursor: pointer;
+}
+
+div#navbar div.navbar-btn:hover {
+    opacity: 0.5;
+}
