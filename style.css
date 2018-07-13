@@ -117,3 +117,18 @@ div#images a#adventure-photography {
 div#images a:hover {
     opacity: .5;
 }
+
+/* Dev-Projects Page */
+div#coming-soon {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    display:table-cell;
+    vertical-align: middle;
+    width: 50%;
+}
+div#coming-soon p {
+    font-size: 2em;
+    display: inline;
+    font-family: 'Amatic SC', cursive;
+}
