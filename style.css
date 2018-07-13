@@ -1,3 +1,14 @@
+/*
+    light salmon: #FFBEAA
+    dark salmon: #D4836A
+    Maroon: #551400
+    light blue: #6A959D
+    middle (lighter) blue: #437983
+    middle blue: #0F454F
+    Dark blue: #012C34
+
+*/
+
 html,
 body {
     padding: 0px;
@@ -8,29 +19,101 @@ body {
     background-color: #D4836A;
 }
 
+/* navbar */
+
 div#navbar {
     width: 100%;
     height: 100px;
     background-color: #FFBEAA;
 }
 
-div#navbar div#navbar-logo {
-    font-family: 'Gaegu', cursive;
-    font-size: 2.5em;
-    margin-left: 35px;
+div#navbar a#navbar-logo {
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+    margin-left: 45px;
     margin-top: 30px;
     display: inline-block;
+    color: #012c34;
+    text-decoration: none;
 }
 
-div#navbar div.navbar-btn {
+div#navbar a#navbar-logo span {
+    font-size: .6em;
+}
+
+div#navbar a.navbar-btn {
     float: right;
     margin-right: 30px;
     margin-top: 40px;
     font-size: 1.8em;
-    font-family: 'Gaegu', cursive;
+    font-family: 'Amatic SC', cursive;
+    color: #000;
+    text-decoration: none;
+}
+
+div#navbar a.navbar-btn:hover {
+    opacity: 0.5;
+}
+
+/* main content */
+
+div#introduction {
+    width: 89%;
+    margin: 50px auto;
+    font-family: 'Amatic SC', cursive;
+    margin-bottom: 50px;
+}
+
+div#introduction h1 {
+    font-size: 2.0em;
+    letter-spacing: 1.0em;
+    color: #012c34;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+div#introduction p {
+    font-size: 1.5em;
+    color: 551400;
+    text-align: right;
+    margin: 10px auto;
+}
+
+/* images */
+
+div#images {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.333fr .667fr;
+    grid-column-gap: 4em;
+    padding-left: .8em;
+    box-sizing: border-box;
+}
+
+div#images a {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
     cursor: pointer;
 }
 
-div#navbar div.navbar-btn:hover {
-    opacity: 0.5;
+div#images a#development-projects {
+    background-image: url('http://www.nature.com/polopoly_fs/7.13266.1382516368%21/image/nature-brain.jpg_gen/derivatives/landscape_630/nature-brain.jpg');
+}
+
+div#images a#yoga {
+    background-image: url('https://scontent-sea1-1.cdninstagram.com/vp/731f7cb8ec29604920d0e17925ffdf44/5BC58406/t51.2885-15/e35/23417305_1551315058267095_8057778411629707264_n.jpg');
+}
+
+div#images a#music {
+    background-image: url('https://isorepublic.com/wp-content/uploads/2016/12/music-band-on-stage-1000x667.jpg');
+}
+
+div#images a#adventure-photography {
+    background-image: url('http://www.fubiz.net/wp-content/uploads/2017/08/adobead8.jpg');
+}
+
+div#images a:hover {
+    opacity: .5;
 }
