@@ -2,3 +2,8 @@ div#intro div.intro-text {
     background-image: url('/assets/img/bgslides/1.jpg'); 
     background-size: cover;
 }
+
+div#rotator > p > span {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.5em;
+}
