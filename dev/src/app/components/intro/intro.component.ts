@@ -7,7 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IntroComponent implements OnInit {
 
-  constructor() { }
+  adj = 'Creative';
+  adjs = ['Creative', 'Custom', 'Unique', 'Awesome'];
+  currentAdj = 0;
+
+  constructor() {
+    setInterval(() => {
+      this.currentAdj++;
+      if (this.currentAdj === this.adjs.length) {
+        this.currentAdj = 0;
+      }
+      this.adj = this.adjs[this.currentAdj];
+    }, 2000);
+  }
 
   ngOnInit() {
   }
