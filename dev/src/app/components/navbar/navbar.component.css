@@ -1,6 +1,9 @@
 nav > div > div.navbar-header > a {
     font-family: 'Amatic SC', cursive;
     font-size: 1.5em;
-    letter-spacing: 2px;
-    text-align: left;
+    cursor: pointer;
+}
+
+a#navbar-logo:hover {
+    color: #E3A4BB;
 }
