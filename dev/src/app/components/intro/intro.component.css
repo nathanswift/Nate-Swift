@@ -1,9 +1,11 @@
 div#intro div.intro-text {
-    background-image: url('/assets/img/bgslides/1.jpg'); 
+    background-image: url('/assets/SF-1293.jpg'); 
     background-size: cover;
+    background-position: center center;
 }
 
 div#rotator > p > span {
     font-family: 'Amatic SC', cursive;
-    font-size: 2em;
+    font-size: 3em;
+    text-align: center;
 }
