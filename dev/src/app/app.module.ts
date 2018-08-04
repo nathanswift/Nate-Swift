@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -13,6 +14,14 @@ import { TeamComponent } from './components/team/team.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { BottomWidgetComponent } from './components/bottom-widget/bottom-widget.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { HomeComponent } from './pages/home/home.component';
+import { ProjectComponent } from './pages/project/project.component';
+
+const appRoutes: Routes = [
+  { path: 'home', component: HomeComponent },
+  { path: 'project', component: ProjectComponent },
+  { path: '**', component: HomeComponent }
+];
 
 @NgModule({
   declarations: [
@@ -27,10 +36,14 @@ import { FooterComponent } from './components/footer/footer.component';
     TeamComponent,
     ContactComponent,
     BottomWidgetComponent,
-    FooterComponent
+    FooterComponent,
+    HomeComponent,
+    ProjectComponent
   ],
+  
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [],
   bootstrap: [AppComponent]
