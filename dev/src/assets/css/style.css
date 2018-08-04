@@ -18,7 +18,7 @@ General
 ================================= */
 
 body{
-	text-align: center;
+	text-align: right;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	line-height: 1.6em;
@@ -251,7 +251,9 @@ Parallax
 ============================= */
 
 #parallax1{
-	background-image: url(../img/parallax/1.jpg);
+	background-image: url('/assets/parallax.jpg');
+	background-position: bottom center;
+	background-size: cover;
 }
 #parallax2{
 	background-image: url(../img/parallax/2.jpg);
