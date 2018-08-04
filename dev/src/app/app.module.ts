@@ -16,9 +16,11 @@ import { BottomWidgetComponent } from './components/bottom-widget/bottom-widget.
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ProjectComponent } from './pages/project/project.component';
+import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
+  { path: 'contact-us', component: ContactUsComponent },
   { path: 'project', component: ProjectComponent },
   { path: '**', component: HomeComponent }
 ];
@@ -38,7 +40,8 @@ const appRoutes: Routes = [
     BottomWidgetComponent,
     FooterComponent,
     HomeComponent,
-    ProjectComponent
+    ProjectComponent,
+    ContactUsComponent
   ],
   
   imports: [
