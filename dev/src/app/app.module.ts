@@ -17,10 +17,12 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ProjectComponent } from './pages/project/project.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
+import { GetStartedFormComponent } from './pages/get-started-form/get-started-form.component';
 
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'contact-us', component: ContactUsComponent },
+  { path: 'get-started-form', component: GetStartedFormComponent },
   { path: 'project', component: ProjectComponent },
   { path: '**', component: HomeComponent }
 ];
@@ -41,7 +43,8 @@ const appRoutes: Routes = [
     FooterComponent,
     HomeComponent,
     ProjectComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    GetStartedFormComponent
   ],
   
   imports: [

@@ -18,7 +18,7 @@ General
 ================================= */
 
 body{
-	text-align: right;
+	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	line-height: 1.6em;
@@ -76,7 +76,7 @@ button {
 	user-select: none;
 }
 button.navbar-toggle {
-	background: #2b2b2b;
+	background: #1A1A1A;
 	border: none;
 	color: #fff;
 }
@@ -86,8 +86,10 @@ button.navbar-toggle {
 }
 .btn-theme:hover{
 	background: transparent !important;
-	border-color: #ab8d3f;
-	color: #ab8d3f;
+	border-color: #C68A7A
+	;
+	color: #C68A7A
+	;
 }
 
 
@@ -171,7 +173,8 @@ nav.navbar.fixed-to-top{
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
-	color:  #ab8d3f;
+	color:  #C68A7A
+	;
 	cursor: pointer;
 	-webkit-transition: all 300ms ease-in-out;
 	-moz-transition: all 300ms ease-in-out;
@@ -254,9 +257,12 @@ Parallax
 	background-image: url('/assets/parallax.jpg');
 	background-position: bottom center;
 	background-size: cover;
+	text-align: right;
+	font-family: 'Amatic SC', cursive;
 }
 #parallax2{
-	background-image: url(../img/parallax/2.jpg);
+ background-image: url('/assets/SF-1273.jpg');
+ border-image-outset: 100px;
 }
 
 
@@ -566,8 +572,10 @@ Works
 
 
 .og-details a:hover {
-	border-color: #ab8d3f;
-	color: #ab8d3f;
+	border-color: #C68A7A
+	;
+	color: #C68A7A
+	;
 }
 
 .og-loading {
@@ -684,7 +692,7 @@ ul.social-network li {
 
 
 ul.social-network li a:hover span .fa-circle {
-	color: #2b2b2b;
+	color: #1A1A1A;
 }
 
 ul.social-network li a i{
@@ -694,7 +702,7 @@ ul.social-network li a i{
 Footer
 ================================= */
 footer {
-	background: #010305;
+	background: #1A1A1A;
 	color: #fff;
 	padding: 50px 0 30px;
 }

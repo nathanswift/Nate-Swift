@@ -9,3 +9,13 @@ div#rotator > p > span {
     font-size: 3em;
     text-align: center;
 }
+
+div > div > div > div > div > a {
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    background-color: #53627A;
+    margin-top: 20px;
+    font-size: 1.25em;
+    cursor: pointer;
+
+}

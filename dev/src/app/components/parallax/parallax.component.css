@@ -1,3 +1,18 @@
-div > parallax2 {
-background-position: center center;
+div > div > div > div > h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 4.5em;
+    text-align: left;
+}
+
+div > div > div > div > h2 {
+    font-family: 'Amatic SC', cursive; 
+    font-size: 3.5em;
+    text-align: center;
+    margin-top: 25px;
+}
+
+div > div > div > div > p {
+    font-size: 2em;
+    text-align: right;
+    margin-bottom: -50px;
 }
