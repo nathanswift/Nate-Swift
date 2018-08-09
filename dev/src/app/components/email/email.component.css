@@ -1,3 +1,7 @@
 div#exampleModal {
     margin-top: 100px;
 }
+
+button#email-btn {
+    margin-bottom: 75px;
+}
