@@ -6,6 +6,11 @@ div[_ngcontent-c8] > div[_ngcontent-c8] > div[_ngcontent-c8] > div[_ngcontent-c8
     margin-top: -10px;
 }
 
+div[_ngcontent-c7] > div[_ngcontent-c7] > div[_ngcontent-c7] > div[_ngcontent-c7] > h2[_ngcontent-c7] {
+    margin-top: -25px;
+    margin-right: 15%;
+}
+
 div > div > div > div > h1 {
     font-family: 'Amatic SC', cursive;
     font-size: 4.5em;
