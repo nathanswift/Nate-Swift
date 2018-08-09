@@ -18,6 +18,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { ProjectComponent } from './pages/project/project.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { GetStartedFormComponent } from './pages/get-started-form/get-started-form.component';
+import { EmailComponent } from './components/email/email.component';
 
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -44,7 +45,8 @@ const appRoutes: Routes = [
     HomeComponent,
     ProjectComponent,
     ContactUsComponent,
-    GetStartedFormComponent
+    GetStartedFormComponent,
+    EmailComponent
   ],
   
   imports: [
