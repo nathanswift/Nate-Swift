@@ -374,7 +374,8 @@ About
 Team
 ================================= */
 .box-team img {
-	margin-bottom: 30px;
+	width: auto;
+	height: auto;
 }
 
 
