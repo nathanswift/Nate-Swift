@@ -1,3 +1,11 @@
+div[_ngcontent-c8] > div[_ngcontent-c8] > div[_ngcontent-c8] > div[_ngcontent-c8] > h1[_ngcontent-c8] {
+    margin-bottom: -30px;
+}
+
+div[_ngcontent-c8] > div[_ngcontent-c8] > div[_ngcontent-c8] > div[_ngcontent-c8] > p[_ngcontent-c8] {
+    margin-top: -10px;
+}
+
 div > div > div > div > h1 {
     font-family: 'Amatic SC', cursive;
     font-size: 4.5em;
