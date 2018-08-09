@@ -447,13 +447,16 @@ Works
 	margin: 0 auto;
 	text-align: center;
 	width: 100%;
+	display: inline-flex;
+	margin-left: 25%;
 }
 
 .og-grid li {
-	display: inline-block;
+	display: grid;
 	margin: 10px 5px 0 5px;
-	vertical-align: top;
-	height: 250px;
+	vertical-align: center;
+	height: fit-content;
+	max-width: 100px;
 }
 
 .og-grid li > a,

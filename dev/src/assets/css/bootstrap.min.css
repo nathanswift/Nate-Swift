@@ -3661,7 +3661,7 @@ textarea.input-lg {
   display: inline-block;
   padding: 6px 12px;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 1.42857143;
   text-align: center;
@@ -3786,8 +3786,8 @@ fieldset[disabled] .btn-default:hover {
 
 .btn-primary {
   color: #fff;
-  background-color: #000;
-  border-color: #C58A7B
+  background-color: #C58A7B;
+  border-color: #000;
 }
 
 .btn-primary.focus,
@@ -3799,8 +3799,9 @@ fieldset[disabled] .btn-default:hover {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #C58A7B;
-  border-color: #204d74
+  background-color: #000;
+  border-color: #204d74;
+  opacity: .5;
 }
 
 .btn-primary.active,
