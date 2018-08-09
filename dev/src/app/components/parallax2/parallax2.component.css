@@ -1,1 +1,11 @@
+section#parallax2 {
+    background-size: cover;
+}
 
+ul.clients li {
+    margin: 15px;
+}
+
+ul.clients li img {
+    width: 15%;
+}
