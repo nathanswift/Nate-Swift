@@ -335,9 +335,10 @@ width: 450px;
   max-width: 100%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   #about .about-img {
-    height: auto;
+	height: auto;
+	width: 100%;
   }
   #about .about-img img {
     margin-left: 0;
@@ -447,8 +448,16 @@ Works
 	margin: 0 auto;
 	text-align: center;
 	width: 100%;
-	display: inline-flex;
-	margin-left: 25%;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	justify-items: center;
+}
+
+
+@media (max-width:768px) {
+	.og-grid {
+		grid-template-columns: repeat(1, 1fr);
+	}
 }
 
 .og-grid li {
@@ -456,7 +465,16 @@ Works
 	margin: 10px 5px 0 5px;
 	vertical-align: center;
 	height: fit-content;
-	max-width: 100px;
+	max-width: 90%;
+}
+
+.og-grid li > a img {
+	width: 100%;
+	height: auto;
+}
+
+.og-grid li > a img:hover {
+	opacity: 0.5;
 }
 
 .og-grid li > a,
